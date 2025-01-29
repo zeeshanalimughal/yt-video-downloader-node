@@ -1,0 +1,19 @@
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "zeeshan-ali",
+  "license": "ISC",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.15.9",
+    "cli-progress": "^3.12.0",
+    "inquirer": "^12.3.3",
+    "sanitize-filename": "^1.6.3"
+  }
+}
