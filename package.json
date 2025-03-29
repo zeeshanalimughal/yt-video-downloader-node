@@ -1,5 +1,5 @@
 {
-  "name": "youtube-video-downloader",
+  "name": "youtube-video-and-playlists-downloader",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,10 @@
   "author": "zeeshan-ali",
   "license": "ISC",
   "dependencies": {
-    "@distube/ytdl-core": "^4.15.9",
     "cli-progress": "^3.12.0",
     "inquirer": "^12.3.3",
-    "sanitize-filename": "^1.6.3"
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "^4.11.5",
+    "ytpl": "^2.3.0"
   }
 }
